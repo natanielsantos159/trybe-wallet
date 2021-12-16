@@ -17,6 +17,7 @@
   height: 304px;
   padding: 40px 60px;
   border-radius: 10px;
+  animation: slideUp 500ms;
 }
 
 .login-form {
@@ -74,4 +75,15 @@
   font-family: 'Abril Fatface', cursive;
   line-height: 43px;
   color: #1BDEC1;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -10%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -40%);
+  }
 }
