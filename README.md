@@ -4,16 +4,16 @@
 <h1>Instalação</h1>
 Caso queira rodá-lo na sua máquina, primeiro faça o git clone, depois instale as depêndencias necessárias.
 <br/>
-<code>
-  git clone
-  cd trybe-wallet
-  npm install
-</code>
+<code>git clone</code>
+<br/>
+<code>cd trybe-wallet</code>
+<br/>
+<code>npm install</code>
 <br/>
 <br/>
 Para executar o app:
 
-<code>npm install</code>
+<code>npm start</code>
 <br/>
 <br/>
 
