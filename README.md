@@ -1,12 +1,12 @@
-<h1> <img src="./public/favicon.ico"> TrybeWallet </h1>
-<i> TrybeWallet é uma aplicação feita pra gerenciar despesas, com conversão de moedas de diversos países. </i>
-<img src="./public/ezgif.com-gif-maker (2).gif">
+<img src="./public/trivia.png">
+<i> O objetivo era fazer um joguinho de quiz em React que consome a API do Trivia, utilizando Redux pra gerenciar o estado da aplicação. </i>
+<img src="./public/trivia.gif">
 <h1>Instalação</h1>
 Caso queira rodá-lo na sua máquina, primeiro faça o git clone, depois instale as depêndencias necessárias.
 <br/>
 <code>git clone</code>
 <br/>
-<code>cd trybe-wallet</code>
+<code>cd trybe-redux</code>
 <br/>
 <code>npm install</code>
 <br/>
