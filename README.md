@@ -17,6 +17,22 @@ Para executar o app:
 <br/>
 <br/>
 
+# Habilidades
+Neste projeto, verificamos se voce é capaz de:
+
+  * Criar um `store` Redux em aplicações React
+
+  * Criar `reducers` no Redux em aplicações React
+
+  * Criar `actions` no Redux em aplicações React
+
+  * Criar `dispatchers` no Redux em aplicações React
+
+  * Conectar `Redux` aos componentes React
+
+  * Criar actions assíncronas na sua aplicação React que faz uso de Redux.
+
+
 # 🚀Tecnologias e Ferramentas utilizadas:
 <h1 align='left'>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
