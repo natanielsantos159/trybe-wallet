@@ -1,4 +1,4 @@
-<h1> <img src="./public/favicon.ico"> TrybeWallet </h1>
+<h1> <img src="./public/favicon.ico" height="43px"> TrybeWallet </h1>
 <i> TrybeWallet é uma aplicação feita pra gerenciar despesas, com conversão de moedas de diversos países. </i>
 <img src="./public/ezgif.com-gif-maker (2).gif">
 <h1>Instalação</h1>
