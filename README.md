@@ -18,7 +18,6 @@ Para executar o app:
 <br/>
 
 # Habilidades
-Neste projeto, verificamos se voce é capaz de:
 
   * Criar um `store` Redux em aplicações React
 
