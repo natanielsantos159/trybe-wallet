@@ -83,6 +83,15 @@
   text-shadow: 0.4px 0.4px 20px #00000094;
 }
 
+.input-tip {
+  color: #1BDEC1;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 14px;
+}
+
 @keyframes slideUp {
   from {
     opacity: 0;
@@ -93,3 +102,4 @@
     transform: translate(-50%, -40%);
   }
 }
+

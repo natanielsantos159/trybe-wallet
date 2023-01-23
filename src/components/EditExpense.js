@@ -12,12 +12,13 @@ class EditExpense extends Component {
   }
 
   onSubmit(newExpense) {
-    const { editExpense, id, expense } = this.props;
+    const { editExpense, quitEditing, id, expense } = this.props;
     editExpense({
       id,
       ...newExpense,
       exchangeRates: expense.exchangeRates,
     });
+    quitEditing();
   }
 
   render() {
@@ -44,6 +45,7 @@ EditExpense.propTypes = {
   }).isRequired,
   id: PropTypes.number.isRequired,
   editExpense: PropTypes.func.isRequired,
+  quitEditing: PropTypes.func.isRequired,
 };
 
 const mapDispatchToProps = (dispatch) => ({
