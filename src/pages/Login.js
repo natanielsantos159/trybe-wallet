@@ -89,6 +89,7 @@ class Login extends React.Component {
               value={ password }
               onChange={ this.handleChange }
             />
+            <p className="input-tip">OBS: coloque qualquer email e qualquer senha :)</p>
             <button
               type="submit"
               disabled={ buttonDisabled }

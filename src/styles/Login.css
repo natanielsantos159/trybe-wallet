@@ -75,3 +75,12 @@
   line-height: 43px;
   color: #1BDEC1;
 }
+
+.input-tip {
+  color: #1BDEC1;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 14px;
+}
