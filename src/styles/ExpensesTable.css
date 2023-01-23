@@ -17,6 +17,7 @@ td {
   animation: slideDown 500ms;
 }
 
+
 @keyframes slideDown {
   from {
     opacity: 0;

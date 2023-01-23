@@ -17,6 +17,7 @@
   height: 304px;
   padding: 40px 60px;
   border-radius: 10px;
+  animation: slideUp 500ms;
 }
 
 .login-form {
@@ -68,12 +69,18 @@
   margin-right: 3px;
 }
 
+.logo-login-container img {
+  height: 50px;
+  margin-right: 10px;
+}
+
 .logo-login-container .wallet {
   font-weight: 400;
   font-size: 35px;
   font-family: 'Abril Fatface', cursive;
   line-height: 43px;
   color: #1BDEC1;
+  text-shadow: 0.4px 0.4px 20px #00000094;
 }
 
 .input-tip {
@@ -84,3 +91,15 @@
   margin-bottom: 5px;
   margin-left: 14px;
 }
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -10%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -40%);
+  }
+}
+

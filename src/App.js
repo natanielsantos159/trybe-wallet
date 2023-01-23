@@ -23,12 +23,12 @@ class App extends React.Component {
     const { isLogged } = this.state;
     return (
       <Switch>
-        <Route path="/" exact>
+        <Route path="/trybe-wallet" exact>
           { isLogged
-            ? <Redirect to="/carteira" />
+            ? <Redirect to="/trybe-wallet/carteira" />
             : <Login handleLogin={ this.handleLogin } /> }
         </Route>
-        <Route path="/carteira">
+        <Route path="/trybe-wallet/carteira">
           <Wallet />
         </Route>
       </Switch>
