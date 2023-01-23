@@ -19,6 +19,7 @@ class Wallet extends React.Component {
     };
 
     this.handleEditing = this.handleEditing.bind(this);
+    this.quitEditing = this.quitEditing.bind(this);
   }
 
   componentDidMount() {
@@ -36,6 +37,14 @@ class Wallet extends React.Component {
     }));
   }
 
+  quitEditing() {
+    this.setState({
+      isEditing: false,
+      id: undefined,
+      currentlyEditing: undefined,
+    });
+  }
+
   render() {
     const { isEditing, id, currentlyEditing } = this.state;
     return (
@@ -43,7 +52,7 @@ class Wallet extends React.Component {
         <div className="header-container">
           <Header />
           { isEditing
-            ? <EditExpense id={ id } expense={ currentlyEditing } />
+            ? <EditExpense id={ id } expense={ currentlyEditing } quitEditing={this.quitEditing} />
             : <AddExpense /> }
         </div>
         <ExpensesTable handleEditing={ this.handleEditing } />
