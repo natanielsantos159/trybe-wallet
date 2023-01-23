@@ -35,8 +35,9 @@ header {
   color: #1BDEC1;
 }
 
-.logo-header-container img {
-  height: 55px;
+.logo {
+  height: 50px;
+  margin-right: 7px;
 }
 
 .user-info-container {

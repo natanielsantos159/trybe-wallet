@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import '../styles/Header.css';
 import md5 from 'crypto-js/md5';
-import trybeWalletLogo from '../images/logo_icon.png';
+import trybeWalletLogo from '../images/logo_icon2.png';
 
 class Header extends Component {
 
@@ -18,7 +18,7 @@ class Header extends Component {
     return (
       <header>
         <div className="logo-header-container">
-          <img src={ trybeWalletLogo } alt="logo icon" />
+          <img src={ trybeWalletLogo } className="logo" alt="logo icon" />
           <span className="trybe">TRYBE</span>
           <span className="wallet">Wallet</span>
         </div>

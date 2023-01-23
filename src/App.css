@@ -5,6 +5,7 @@ body {
   background-size: cover;
   color: white;
   font-family: Raleway, sans-serif;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 input:-webkit-autofill,
